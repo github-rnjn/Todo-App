@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(183, 183, 183);
+}
+.title{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+.prompt{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    column-gap: 1em;
+    padding: 0.5em;
+    border-radius: 0.25em;
+}
+.prompt-input{
+    height: 30px;
+    width: 300px;
+}
+.btn{
+    height: 35px;
+    width: 120px;
+    cursor: pointer;
+    background-color: rgb(102, 102, 221);
+    color: white;
+    border-radius: 0.5em;
+    border: none;
+}
+.remove{
+    height: 30px;
+    width: 120px;
+    background-color: purple;
+    color:white;
+}
+.todo-list-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    padding: 0.5em;
+    list-style: none;
+    row-gap: 0.5em;
+}
+.list_box{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 0.5em;
+    border-radius: 0.5em;
+}
+.done{
+    height: 30px;
+    width: 100px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+.todo-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.line-through{
+    text-decoration: line-through;
+}
